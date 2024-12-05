@@ -94,10 +94,10 @@
         function_layer {
             label = "FUN";
             bindings = <
-&kp F1  &kp F2   &kp F3   &kp F4   &none                   &none   &none  &none  &none  &none
-&kp F5  &kp F6   &kp F7   &kp F8   &none                   &none   &none  &none  &none  &none
-&kp F9  &kp F10  &kp F11  &kp F12  &none                   &none   &none  &none  &none  &none
-&trans  &trans   &trans   &trans   &trans  &trans  &trans  &trans                       &trans
+&kp ESCAPE  &kp F2   &kp F3   &kp F4   &none                   &none   &none  &none  &none  &none
+&kp TAB     &kp F6   &kp F7   &kp F8   &none                   &none   &none  &none  &none  &none
+&kp F9      &kp F10  &kp F11  &kp F12  &none                   &none   &none  &none  &none  &none
+&trans      &trans   &trans   &trans   &trans  &trans  &trans  &trans                       &trans
             >;
         };
 
@@ -114,10 +114,10 @@
         scroll_layer {
             label = "SCROLL";
             bindings = <
-&trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans                          &trans
+&kp GRAVE      &kp N7        &kp N8        &kp N9        &kp MINUS                      &kp LS(NUMBER_1)      &kp LS(MINUS)  &kp LS(N9)            &kp LS(N0)             &kp MINUS
+&kp LS(GRAVE)  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp EQUAL                      &kp LS(NUMBER_2)      &kp SQT        &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp SEMICOLON
+&kp N0         &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp LS(EQUAL)                  &kp NON_US_BACKSLASH  &kp LS(SQT)    &kp LS(LEFT_BRACKET)  &kp LS(RIGHT_BRACKET)  &kp LS(SEMICOLON)
+&trans         &trans        &trans        &trans        &trans         &trans  &trans  &trans                                                                            &trans
             >;
         };
 
